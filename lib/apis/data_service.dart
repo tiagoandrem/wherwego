@@ -7,7 +7,7 @@ class DataService {
     final queryParameters = {
       'lat': lat.toString(),
       'lon': lon.toString(),
-      'appid': 'a659e1e000e3d73124729c2702229e63',
+      'appid': 'API_ID',
       // Replace with your OpenWeatherMap API key
       'units': 'metric'
     };
