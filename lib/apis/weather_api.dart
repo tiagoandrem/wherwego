@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 
 Future<Map<String, dynamic>> fetchWeatherData(String locationKey) async {
-  String apiKey = 'MUaS5tYiVxrtAZucQyivvLGEt1YauHK0';
+  String apiKey = 'xxxxxxxxxxx';
   String apiUrl = 'http://dataservice.accuweather.com/forecasts/v1/daily/1day/$locationKey?apikey=$apiKey';
 
   http.Response response = await http.get(Uri.parse(apiUrl));
