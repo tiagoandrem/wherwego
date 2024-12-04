@@ -50,7 +50,7 @@ class _ChatScreenState extends State<ChatScreen> {
   late ScrollController _listScrollController;
   late FocusNode focusNode;
   HotelService hotelService = HotelService();
-  final googlePlacesApi = GooglePlacesApi(apiKey: 'AIzaSyAMj4pkTlJSyV3eiCp5LKhqnoV2AEJEkf8');
+  final googlePlacesApi = GooglePlacesApi(apiKey: 'xxxxxxxxxxx');
   List<String> _bookingOptions = []; // Define the field here
   bool isWaitingForBookingConfirmation = false;
   bool stopTyping = false;
